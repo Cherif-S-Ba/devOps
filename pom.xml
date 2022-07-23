@@ -46,7 +46,18 @@
 			<url>http://localhost:8081/artifactory/myrepo</url>
 		</snapshotRepository>
 	</distributionManagement>-->
-
+	<distributionManagement>
+	    <repository>
+		<id>central</id>
+		<name>DESKTOP-HAPPDT6-releases</name>
+		<url>http://localhost:8081/artifactory/esmt</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>DESKTOP-HAPPDT6-snapshots</name>
+		<url>http://localhost:8081/artifactory/esmt</url>
+	    </snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
